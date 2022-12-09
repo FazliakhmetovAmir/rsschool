@@ -3,7 +3,7 @@
 - +905346152074
 - fazliakhmetov.amir@gmail.com
 - @fazliakhmetov42
-- www.linkedin.com/in/fazliakhmetov42
+- [LinkedIn](www.linkedin.com/in/fazliakhmetov42)
 
 ## About me
 I studied in Kazan federal university in Fundamental medicine and biology institute. Then I was working as coach in 2016-2020. In 2020 I have opened my oun gym, and I closed it in 2022. Now i start learn programming to become frontend developer.
