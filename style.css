@@ -1,20 +1,27 @@
+@font-face {
+  font-family: Roboto;
+   src: url("assets/Roboto.ttf");
+ }
 body {
-    display: flex;
+    
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 80 60;
+    padding: 20;
     flex-direction: column;
     justify-content: space-between;
   }
 
   header {
-    border: 1px solid red;
+    border: 1px solid #1A2902;
+    background-color: #F2F2EF;
   }
   main {
-    border: 1px solid red;
+    border: 1px solid #1A2902;
+    background-color: #F2F2EF;
   } 
   footer {
-    border: 1px solid red;
+    border: 1px solid #1A2902;
+    background-color: #F2F2EF;
   }
   .container {
     max-width: 1440px;
@@ -25,6 +32,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    font: bold 16px Roboto;
   }
   .nav-link {
     padding: 0 20px;
@@ -49,6 +57,7 @@ body {
   
   .section {
     width: 50%;
+    margin: 10px;
   }
   @media (max-width: 768px) {
     .section {
@@ -57,4 +66,26 @@ body {
   }
   .second {
     text-transform: uppercase;
+    font-size: 24px;
+  }
+  .section-title {
+    color: #374709;
+    font: 28px roboto;
+  }
+  a:link {
+    color: #374709; 
+    text-decoration: none;
+  }
+  a:visited {
+    color: #374709;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #374709;
+    background-color: #759242; 
+    text-decoration: none;
+  }
+  a:active {
+    color: #374709; 
+    text-decoration: none;
   }
